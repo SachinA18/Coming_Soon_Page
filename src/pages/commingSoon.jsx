@@ -18,12 +18,11 @@ const ComingSoon = () => {
         <div className="mb-8 text-lg font-bold subtitle">
           We are ready to launch{" "}
           <a
-            href="https://everefficient.lk/"
+            href=" "
             target="_blank"
             rel="noopener noreferrer"
             className="text-pink-300 underline"
           >
-            everefficient.lk
           </a>
         </div>
       </header>
@@ -52,10 +51,28 @@ const ComingSoon = () => {
           </i>
         </div>
 
-        <div className="mt-4 social-icons">
-          <i className="pi pi-facebook text-2xl mr-3"></i>
-          <i className="pi pi-linkedin text-2xl mr-3"></i>
-          <i className="pi pi-youtube text-2xl mr-3"></i>
+        <div className="mt-4 ml-4 social-icons">
+          <a
+            href="https://www.facebook.com/everefficient.official"
+            className="mr-3"
+            style={{ color: "#04dec8", }}
+          >
+            <i className="pi pi-facebook text-2xl" aria-hidden="true"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/company/ever-efficient"
+            className="mr-3"
+            style={{ color: "#04dec8", }}
+          >
+            <i className="pi pi-linkedin text-2xl"> </i>
+          </a>
+          <a
+            href="https://www.youtube.com/@EverEfficient"
+            className="mr-3"
+            style={{ color: "#04dec8", }}
+          >
+            <i className="pi pi-youtube text-2xl"></i>
+          </a>
         </div>
       </footer>
     </div>
